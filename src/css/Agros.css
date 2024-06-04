@@ -1,0 +1,17 @@
+html, body {
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header {
+ display: flex;   
+};
+
+main {
+    display: flex;   
+}
+
+footer {
+    display: flex;   
+   }
