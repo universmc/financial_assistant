@@ -2,8 +2,8 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const express = require('express');
 const Groq = require('groq-sdk');
-const Cluster = require('./heavy');
-const Worker = require("./worker.js");
+const Cluster = require('./heavy.js');
+const Worker = require("../_financial_assistant/worker.js");
 
 // Créer l'application Express
 const server = express();
